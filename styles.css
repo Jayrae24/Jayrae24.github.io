@@ -6,7 +6,8 @@ header{
     margin:100%;
     width:100%;
     align-items: center;
-    background-color: #E6E6FA;
+    /* background-image: url('images/shopping-center.jif'); */
+    background-color: #005477;
     padding-top: 15px;
     top:0;
     position: sticky;
@@ -67,14 +68,30 @@ ol{
     padding:30px;
     list-style-type: upper-alpha;
 }
-
-td, th{
+.clothing-items td, .clothing-items th{
     border: #893101 solid;
-    margin: 0px;
+    margin:0px;
     padding:0px;
     text-align: left;
 }
 tr{
     margin:0px;
     padding:0px;
+}
+.clothing-items{
+    border-collapse:collapse
+}
+form{
+    width:fit-content;
+    padding:5px;
+    margin:auto;
+}
+fieldset{
+    padding:5px
+}
+legend{
+    text-align:center;
+}
+input{
+    width:160px
 }
