@@ -15,7 +15,7 @@
                 let email = document.contactUs.email.value;
                 let msg = document.contactUs.msg.value;
 
-                if(username=="" || phone=="" || password=="" || cpassword=="" || email=="" || msg=="" || dob=="")
+                if(uname=="" || phone=="" || password=="" || cpassword=="" || email=="" || msg=="" || dob=="")
                 {
                     alert("Fill in all the fields")
                 }
@@ -51,7 +51,7 @@
             </ul>
         </header>
         <div class="content">
-            <form>
+            <form name="contactUs">
             <fieldset>
             <legend>Contact Us</legend>
                 <table>
@@ -85,7 +85,7 @@
                             <td><input name="msg" type="text"></td>
                         </tr>
                         <tr>
-                            <td align="center" colspan="2"><input type="submit" value="Submit"></td>
+                            <td align="center" colspan="2"><input type="submit" value="Submit" onclick="validate();"></td>
                         </tr>
                     </tbody>
                 </table>
