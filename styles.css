@@ -4,22 +4,22 @@ body{
 }
 header{
     width:100%;
+    text-align: center;
     align-items: center;
-    /* background-image: url('images/shopping-center.jif'); */
     background-color: #52666e;
-    padding-top: 8px;
+    padding-top: 10px;
     top:0;
     position: sticky;
 }
 header div{
     font-size: 30px;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Times New Roman', serif, Georgia;
     color: #c4d3e6;
     align-items: center;
 }
 header > h1{
     text-align: center;
-    color: #523d52;
+    color: #041e37;
 }
 .nav-bar{
     display:flex;
@@ -30,10 +30,10 @@ header > h1{
 }
 .nav-bar a{
     font-size: 20px;
-    color: #BBA58F;
+    color: #041e37;
 }
 .nav-bar .current{
-    color: #;
+    color: #edd78c;
 }
 a:link{
     text-decoration: none;
@@ -49,7 +49,6 @@ a:active{
 }
 .content{
     padding:5px;
-    /* font-size: 17px; */
 }
 .content div{
     font-size: 17px
@@ -72,18 +71,9 @@ ol{
     padding:30px;
     list-style-type: upper-alpha;
 }
-.clothing-items td, .clothing-items th{
-    border: #893101 solid;
-    margin:0px;
-    padding:0px;
-    text-align: left;
-}
 tr{
     margin:0px;
     padding:0px;
-}
-.clothing-items{
-    border-collapse:collapse
 }
 form{
     width:fit-content;
