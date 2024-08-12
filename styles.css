@@ -1,4 +1,4 @@
-body{
+*{
     margin:0px;
     padding:0px;   
 }
@@ -35,6 +35,9 @@ header > h1{
 .nav-bar .current{
     color: #edd78c;
 }
+body{
+    text-align: center;
+}
 a:link{
     text-decoration: none;
 }
@@ -48,10 +51,10 @@ a:active{
     text-decoration: none;
 }
 .content{
-    padding:5px;
+    padding:10px;
 }
 .content div{
-    font-size: 17px
+    font-size: 17px;
 }
 footer{
     text-align: center;
