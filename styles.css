@@ -6,18 +6,20 @@ header{
     width:100%;
     align-items: center;
     /* background-image: url('images/shopping-center.jif'); */
-    background-color: #223030;
-    padding-top: 10px;
+    background-color: #52666e;
+    padding-top: 8px;
     top:0;
     position: sticky;
 }
 header div{
     font-size: 30px;
     font-family: 'Times New Roman', serif;
+    color: #c4d3e6;
+    align-items: center;
 }
 header > h1{
     text-align: center;
-    color: #959D90;
+    color: #523d52;
 }
 .nav-bar{
     display:flex;
@@ -31,7 +33,7 @@ header > h1{
     color: #BBA58F;
 }
 .nav-bar .current{
-    color: #523D35;
+    color: #;
 }
 a:link{
     text-decoration: none;
