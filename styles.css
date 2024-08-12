@@ -35,9 +35,6 @@ header > h1{
 .nav-bar .current{
     color: #edd78c;
 }
-body{
-    text-align: center;
-}
 a:link{
     text-decoration: none;
 }
